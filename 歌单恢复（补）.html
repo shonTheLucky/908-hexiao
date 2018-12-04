@@ -44,7 +44,7 @@
       <div id="u16" class="ax_default paragraph">
         <div id="u16_div" class=""></div>
         <div id="u16_text" class="text ">
-          <p style="font-size:16px;"><span style="font-family:'ArialMT', 'Arial';">-</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">【恢复歌单】功能页面</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">页面功能包括：全选、歌单展示、恢复歌单</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">点击逻辑：点击歌单，则选择该歌单；点击全选，则选择已加载所有歌单；点击恢复，则恢复改革单</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">恢复逻辑：</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">1、本期只做歌单删除的恢复，记录下用户最近一个月内删除的所有歌单，用户操作恢复后，将歌单恢复到删除前最后一刻的内容。</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">页面中相关数据规则：</span></p>
+          <p style="font-size:16px;"><span style="font-family:'ArialMT', 'Arial';">-</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">【恢复歌单】功能页面</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">页面功能包括：全选、歌单展示、恢复歌单</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">点击逻辑：点击歌单，则选择该歌单</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">恢复逻辑：</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">1、当用户对歌单执行删除操作时，记录下该歌单的数据，保存一个月时间，用户在删除后的一个月内，可以来此页面，对歌单进行恢复。</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2、当用户在歌单中对于单曲执行删除操作后，记录下该歌单的数据，保存一个月内所有删除过的歌曲，用户在一个月内，可以来此页面，对歌单中的歌曲进行恢复。（Q：重复歌曲怎么办）</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">页面中相关数据规则</span></p>
         </div>
       </div>
 
@@ -94,31 +94,49 @@
         <!-- Unnamed (Table Cell) -->
         <div id="u23" class="ax_default table_cell">
           <img id="u23_img" class="img " src="images/歌单恢复（补）/u23.png"/>
+          <div id="u23_text" class="text ">
+            <p><span>若用户先执行删除歌曲，然后执行删除歌单的操作，则只保留删除歌单这一项</span></p>
+          </div>
         </div>
 
         <!-- Unnamed (Table Cell) -->
         <div id="u24" class="ax_default table_cell">
           <img id="u24_img" class="img " src="images/歌单恢复（补）/u24.png"/>
+          <div id="u24_text" class="text ">
+            <p><span>歌单中有歌曲被删除</span></p>
+          </div>
         </div>
 
         <!-- Unnamed (Table Cell) -->
         <div id="u25" class="ax_default table_cell">
           <img id="u25_img" class="img " src="images/歌单恢复（补）/u25.png"/>
+          <div id="u25_text" class="text ">
+            <p><span>若歌单中的部分歌曲被删除，则展示在列表中，并标注为：歌单中N首歌曲被删除（N由服务端记录）</span></p>
+          </div>
         </div>
 
         <!-- Unnamed (Table Cell) -->
         <div id="u26" class="ax_default table_cell">
           <img id="u26_img" class="img " src="images/歌单恢复（补）/u26.png"/>
+          <div id="u26_text" class="text ">
+            <p><span>若用户多次对同一个歌单执行删除歌曲的操作，需要将数据合并为一条</span></p>
+          </div>
         </div>
 
         <!-- Unnamed (Table Cell) -->
         <div id="u27" class="ax_default table_cell">
           <img id="u27_img" class="img " src="images/歌单恢复（补）/u27.png"/>
+          <div id="u27_text" class="text ">
+            <p><span>歌单删除时间</span></p>
+          </div>
         </div>
 
         <!-- Unnamed (Table Cell) -->
         <div id="u28" class="ax_default table_cell">
           <img id="u28_img" class="img " src="images/歌单恢复（补）/u28.png"/>
+          <div id="u28_text" class="text ">
+            <p><span>歌单/歌单内歌曲最后一次删除操作的日期（服务端记录）</span></p>
+          </div>
         </div>
 
         <!-- Unnamed (Table Cell) -->
@@ -162,7 +180,7 @@
       <div id="u35" class="ax_default box_2">
         <div id="u35_div" class=""></div>
         <div id="u35_text" class="text ">
-          <p><span style="font-family:'ArialMT', 'Arial';">8</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">月</span><span style="font-family:'ArialMT', 'Arial';">22</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">日删除</span></p>
+          <p><span style="font-family:'ArialMT', 'Arial';">28</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">首歌曲被删除</span><span style="font-family:'ArialMT', 'Arial';"> 8</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">月</span><span style="font-family:'ArialMT', 'Arial';">22</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">日</span></p>
         </div>
       </div>
 
@@ -170,7 +188,7 @@
       <div id="u36" class="ax_default box_2">
         <div id="u36_div" class=""></div>
         <div id="u36_text" class="text ">
-          <p><span>8月21日删除</span></p>
+          <p><span>歌单被删除 8月21日</span></p>
         </div>
       </div>
 
@@ -178,7 +196,7 @@
       <div id="u37" class="ax_default box_2">
         <div id="u37_div" class=""></div>
         <div id="u37_text" class="text ">
-          <p><span style="font-family:'ArialMT', 'Arial';">8</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">月</span><span style="font-family:'ArialMT', 'Arial';">20</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">日删除</span></p>
+          <p><span style="font-family:'ArialMT', 'Arial';">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">首歌曲被删除</span><span style="font-family:'ArialMT', 'Arial';"> 8</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">月</span><span style="font-family:'ArialMT', 'Arial';">20</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">日</span></p>
         </div>
       </div>
 
@@ -190,14 +208,6 @@
       <!-- Unnamed (Rectangle) -->
       <div id="u39" class="ax_default box_1">
         <div id="u39_div" class=""></div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u40" class="ax_default box_1">
-        <div id="u40_div" class=""></div>
-        <div id="u40_text" class="text ">
-          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">客户端：</span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p><span style="font-family:'ArialMT', 'Arial';">weex</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">：</span></p><p><span style="font-family:'ArialMT', 'Arial';">1.</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">查用户</span><span style="font-family:'ArialMT', 'Arial';">id</span></p><p><span style="font-family:'ArialMT', 'Arial';">2.</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">到服务查待恢复列表</span></p><p><span style="font-family:'ArialMT', 'Arial';">3.</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">用户选择的歌单</span><span style="font-family:'ArialMT', 'Arial';">id</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">恢复，传给服务，以及客户端</span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">服务：</span></p><p><span style="font-family:'ArialMT', 'Arial';">1.</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">恢复列表（分页根据weex给的数据）</span></p><p><span style="font-family:'ArialMT', 'Arial';">2.</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">恢复接口</span></p><p><span style="font-family:'ArialMT', 'Arial';">3.</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">云同步中，删除歌单记录一个新表</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p>
-        </div>
       </div>
     </div>
   </body>
